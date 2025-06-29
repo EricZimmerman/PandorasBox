@@ -33,12 +33,8 @@ repo = mainsail-crew/mainsail
 channel = stable
 type = web
 
-[update_manager mainsail-config]
-managed_services = klipper
-origin = https://github.com/mainsail-crew/mainsail-config.git
-path = /home/pi/mainsail-config
-primary_branch = master
-type = git_repo
+[update_manager klipper]
+report_anomalies = False
 
 [update_manager update_klipper_and_mcus]
 type = git_repo
@@ -100,4 +96,11 @@ path = /home/pi/fluidd
 repo = fluidd-core/fluidd
 channel = stable
 type = web
+
+[update_manager fluidd-config]
+managed_services = klipper
+origin = https://github.com/fluidd-core/fluidd-config.git
+path = /home/pi/fluidd-config
+primary_branch = master
+type = git_repo
 
