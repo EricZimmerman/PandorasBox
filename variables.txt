@@ -1,0 +1,5 @@
+[Variables]
+filaments = {'PB_Fusion1.5_ABSHT': {'name': 'PB_Fusion1.5_ABSHT', 'configs': [{'nozzle_diameter': 0.4, 'pressure_advance': 0.024, 'smooth_time': 0.02}]}}
+materials = {'ABS': 0.024}
+nozzle_expansion_applied_offset = 0
+
