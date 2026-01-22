@@ -35,6 +35,7 @@ type = web
 
 [update_manager klipper]
 report_anomalies = False
+channel = stable
 
 [update_manager update_klipper_and_mcus]
 type = git_repo
